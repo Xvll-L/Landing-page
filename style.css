@@ -14,6 +14,8 @@ header{
     width: 100%;
     display: flex;
     align-items: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
    
 }
 
@@ -28,28 +30,44 @@ header ul{
 
 header h3{
     height: 3rem;
-    width: 8rem;
+    width: 10.5rem;
     outline: red solid 1px;
     display: flex;
     align-items: center;
+    font-size: 24px;
+   
+
 }
 
 main {
+    
+}
+
+.hero {
     display: grid;
     place-items: center;
+    background-color: red;
+    background-color: #1F2937
 }
+
 
 .content{
     height: 100%;
     width: 60%;
-    
+    background-color: #1F2937;
+    outline: black solid px;
+   
 }
 
 .content-main{
     outline: 1px solid red;
-    height: 400px;
+    height: 600px;
     width: 100%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 #placeholder{
@@ -59,17 +77,23 @@ main {
     text-align: center;
     margin-left: 10px;
     display: flex;
-    
+    background-color: gray;
     justify-content: center;
     align-items: center;
 }
 
 .text--btn{
-    height: 200px;
+    height: auto;
     width: 400px;
     outline: 1px solid blue;
 }
 
-.text--btn h3{
+.text--btn h1{
     font-weight: bolder;
+    font-size: 48px;
+}
+
+.text--btn p{
+    font-size: 18px;
+    color: #E5E7EB;
 }
