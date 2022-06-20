@@ -1,3 +1,6 @@
+:root {
+    --box: red solid 1px;
+}
 body{
     margin: 0;
     padding: 0;
@@ -9,7 +12,7 @@ body{
 
 
 header{
-    outline: red solid 1px;
+    outline: var(--box);
     height: 60px;
     width: 100%;
     display: flex;
@@ -20,18 +23,17 @@ header{
 }
 
 header ul{
-    outline: blue solid 1px;
+    outline: var(--box);
     width: 100%;
     display: flex;
     gap: 10px;
-    list-style: none;
     justify-content: end;
 }
 
 header h3{
     height: 3rem;
     width: 10.5rem;
-    outline: red solid 1px;
+    outline: var(--box)x;
     display: flex;
     align-items: center;
     font-size: 24px;
@@ -42,6 +44,7 @@ header h3{
 main {
     
 }
+    
 
 .hero {
     display: grid;
@@ -55,12 +58,12 @@ main {
     height: 100%;
     width: 60%;
     background-color: #1F2937;
-    outline: black solid px;
+    outline: var(--outline);
    
 }
 
 .content-main{
-    outline: 1px solid red;
+    outline: var(--outline);
     height: 600px;
     width: 100%;
     display: flex;
@@ -71,7 +74,7 @@ main {
 }
 
 #placeholder{
-    outline: grey solid 1px;
+    outline:var(--outline);
     width: 500px;
     height: 200px;
     text-align: center;
@@ -85,7 +88,7 @@ main {
 .text--btn{
     height: auto;
     width: 400px;
-    outline: 1px solid blue;
+    outline: var(--outline);
 }
 
 .text--btn h1{
