@@ -1,5 +1,6 @@
+/* */
 :root {
-    --box: red solid 1px;
+    --box: red solid 0px;
 }
 body{
     margin: 0;
@@ -10,7 +11,8 @@ body{
     
 }
 
-
+/*header start here
+contain header and list */
 header{
     outline: var(--box);
     height: 60px;
@@ -21,7 +23,7 @@ header{
     background-color: #1F2937;
    
 }
-
+/* */
 header ul{
     outline: var(--box);
     width: 100%;
@@ -30,7 +32,7 @@ header ul{
     justify-content: end;
     list-style: none;
 }
-
+/* */
 header h3{
     height: 3rem;
     width: 10.5rem;
@@ -41,11 +43,11 @@ header h3{
    
 
 }
-
+/* */
 main {
     
 }
-    
+ /* */   
 
 .hero {
     display: grid;
@@ -54,7 +56,7 @@ main {
     background-color: #1F2937
 }
 
-
+/* */
 .content{
     height: 100%;
     width: 60%;
@@ -62,7 +64,7 @@ main {
     outline: var(--box);
    
 }
-
+/* */
 .content-main{
     outline: var(--box);
     height: 600px;
@@ -73,11 +75,11 @@ main {
     background-color: #1F2937;
     color: #F9FAF8;
 }
-
+/* */
 #placeholder{
     outline:var(--box);
-    width: 500px;
-    height: 200px;
+    width: 600px;
+    height: 300px;
     text-align: center;
     margin-left: 10px;
     display: flex;
@@ -85,19 +87,33 @@ main {
     justify-content: center;
     align-items: center;
 }
-
+/* */
 .text--btn{
     height: auto;
-    width: 400px;
+    width: 450px;
     outline: var(--box);
 }
-
+/* */
 .text--btn h1{
     font-weight: bolder;
     font-size: 48px;
+    height: auto;
+    width: 400px;
 }
-
+/* */
 .text--btn p{
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.text--btn button{
+    padding: 7px  30px;
+    background-color:#3882F6 ;
+    border: none;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+
+
