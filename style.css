@@ -28,6 +28,7 @@ header ul{
     display: flex;
     gap: 10px;
     justify-content: end;
+    list-style: none;
 }
 
 header h3{
@@ -58,12 +59,12 @@ main {
     height: 100%;
     width: 60%;
     background-color: #1F2937;
-    outline: var(--outline);
+    outline: var(--box);
    
 }
 
 .content-main{
-    outline: var(--outline);
+    outline: var(--box);
     height: 600px;
     width: 100%;
     display: flex;
@@ -74,7 +75,7 @@ main {
 }
 
 #placeholder{
-    outline:var(--outline);
+    outline:var(--box);
     width: 500px;
     height: 200px;
     text-align: center;
@@ -88,7 +89,7 @@ main {
 .text--btn{
     height: auto;
     width: 400px;
-    outline: var(--outline);
+    outline: var(--box);
 }
 
 .text--btn h1{
