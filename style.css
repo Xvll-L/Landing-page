@@ -1,6 +1,6 @@
 /* */
 :root {
-    --box: red solid 1px;
+    --box: red solid 0px;
 }
 body{
     margin: 0;
@@ -174,7 +174,7 @@ main {
     height: 400px;
 }
 
-.con3-contatiner{
+.con3-containter{
     outline: var(--box);
     width: 60%;
     height: 100%;
@@ -196,6 +196,67 @@ main {
     font-weight: light;
     height: auto;
     width: 90%;
+}
 
+.content4{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 300px;
+}
 
+.con4-containter{
+    outline: var(--box);
+    width: 60%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+
+}
+
+.con4{
+    width: 100%;
+    height: 100px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    color: #F9FAF8;
+   border-radius: 10px;
+}
+
+.txt-content4 {
+    outline: var(--box);
+    width: auto;
+    height: 100%;
+    padding: 0px;
+    
+  
+}
+
+.txt-content4 h3{
+    margin-top:6%;
+}
+
+.txt-content4 p{
+ margin-top: -20px;
+}
+
+.con4 button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 2px solid #F9FAF8;
+    height: 30px;
+    width: 90px;
+    margin-top: 3.5%;
+    border-radius: 5px;
+    
+}
+
+.content5{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
